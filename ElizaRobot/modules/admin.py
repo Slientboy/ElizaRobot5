@@ -5,16 +5,16 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
-from LaylaRobot import DRAGONS, dispatcher
-from LaylaRobot.modules.disable import DisableAbleCommandHandler
-from LaylaRobot.modules.helper_funcs.chat_status import (bot_admin, can_pin,
+from ElizaRobot import DRAGONS, dispatcher
+from ElizaRobot.modules.disable import DisableAbleCommandHandler
+from ElizaRobot.modules.helper_funcs.chat_status import (bot_admin, can_pin,
                                                            can_promote,
                                                            connection_status,
                                                            user_admin)
-from LaylaRobot.modules.helper_funcs.extraction import (extract_user,
+from ElizaRobot.modules.helper_funcs.extraction import (extract_user,
                                                           extract_user_and_text)
-from LaylaRobot.modules.log_channel import loggable
-from LaylaRobot.modules.helper_funcs.alternate import send_message
+from ElizaRobot.modules.log_channel import loggable
+from ElizaRobot.modules.helper_funcs.alternate import send_message
 
 
 @run_async
