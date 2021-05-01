@@ -14,12 +14,12 @@ from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler, 
 from telegram.utils.helpers import mention_html, escape_markdown
 from ElizaRobot import dispatcher
 from ElizaRobot.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict
-from LaylaRobot.modules.helper_funcs.string_handling import extract_time
-from LaylaRobot.modules.log_channel import loggable
-from LaylaRobot.modules.sql import antiflood_sql as sql
-from LaylaRobot.modules.connection import connected
-from LaylaRobot.modules.helper_funcs.alternate import send_message
-from LaylaRobot.modules.sql.approve_sql import is_approved
+from ElizaRobot.modules.helper_funcs.string_handling import extract_time
+from ElizaRobot.modules.log_channel import loggable
+from ElizaRobot.modules.sql import antiflood_sql as sql
+from ElizaRobot.modules.connection import connected
+from ElizaRobot.modules.helper_funcs.alternate import send_message
+from ElizaRobot.modules.sql.approve_sql import is_approved
 
 FLOOD_GROUP = 3
 
