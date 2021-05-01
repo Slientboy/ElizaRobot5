@@ -3,17 +3,17 @@ from typing import Optional, List
 
 from telegram import Message, Chat, Update, Bot, User, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, ChatPermissions
 
-from LaylaRobot import TIGERS, WOLVES, dispatcher
-from LaylaRobot.modules.helper_funcs.chat_status import (
+from ElizaRobot import TIGERS, WOLVES, dispatcher
+from ElizaRobot.modules.helper_funcs.chat_status import (
     bot_admin, can_restrict, connection_status, is_user_admin, user_admin,
     user_admin_no_reply)
-from LaylaRobot.modules.log_channel import loggable
-from LaylaRobot.modules.sql import antiflood_sql as sql
+from ElizaRobot.modules.log_channel import loggable
+from ElizaRobot.modules.sql import antiflood_sql as sql
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler, Filters, MessageHandler, run_async
 from telegram.utils.helpers import mention_html, escape_markdown
-from LaylaRobot import dispatcher
-from LaylaRobot.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict
+from ElizaRobot import dispatcher
+from ElizaRobot.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict
 from LaylaRobot.modules.helper_funcs.string_handling import extract_time
 from LaylaRobot.modules.log_channel import loggable
 from LaylaRobot.modules.sql import antiflood_sql as sql
