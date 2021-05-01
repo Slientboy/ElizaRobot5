@@ -5,7 +5,7 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import LaylaRobot.modules.sql.notes_sql as sql
+import ElizaRobot.modules.sql.notes_sql as sql
 from LaylaRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER
 from LaylaRobot.__main__ import DATA_IMPORT
 from LaylaRobot.modules.helper_funcs.chat_status import user_admin
@@ -14,14 +14,14 @@ from LaylaRobot.modules.helper_funcs.alternate import typing_action
 # from LaylaRobot.modules.rules import get_rules
 import LaylaRobot.modules.sql.rules_sql as rulessql
 
-# from LaylaRobot.modules.sql import warns_sql as warnssql
-import LaylaRobot.modules.sql.blacklist_sql as blacklistsql
-from LaylaRobot.modules.sql import disable_sql as disabledsql
+# from ElizaRobot.modules.sql import warns_sql as warnssql
+import ElizaRobot.modules.sql.blacklist_sql as blacklistsql
+from ElizaRobot.modules.sql import disable_sql as disabledsql
 
-# from LaylaRobot.modules.sql import cust_filters_sql as filtersql
-# import LaylaRobot.modules.sql.welcome_sql as welcsql
-import LaylaRobot.modules.sql.locks_sql as locksql
-from LaylaRobot.modules.connection import connected
+# from ElizaRobot.modules.sql import cust_filters_sql as filtersql
+# import ElizaRobot.modules.sql.welcome_sql as welcsql
+import ElizaRobot.modules.sql.locks_sql as locksql
+from ElizaRobot.modules.connection import connected
 
 
 @run_async
