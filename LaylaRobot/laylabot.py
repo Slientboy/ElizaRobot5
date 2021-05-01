@@ -1,4 +1,4 @@
-from LaylaRobot import telethn
+from ElizaRobot import telethn
 from telethon import events
 
 
