@@ -6,13 +6,13 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
 import ElizaRobot.modules.sql.notes_sql as sql
-from LaylaRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER
-from LaylaRobot.__main__ import DATA_IMPORT
-from LaylaRobot.modules.helper_funcs.chat_status import user_admin
-from LaylaRobot.modules.helper_funcs.alternate import typing_action
+from ElizaRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER
+from ElizaRobot.__main__ import DATA_IMPORT
+from ElizaRobot.modules.helper_funcs.chat_status import user_admin
+from ElizaRobot.modules.helper_funcs.alternate import typing_action
 
-# from LaylaRobot.modules.rules import get_rules
-import LaylaRobot.modules.sql.rules_sql as rulessql
+# from ElizaRobot.modules.rules import get_rules
+import ElizaRobot.modules.sql.rules_sql as rulessql
 
 # from ElizaRobot.modules.sql import warns_sql as warnssql
 import ElizaRobot.modules.sql.blacklist_sql as blacklistsql
@@ -334,14 +334,14 @@ def export_data(update, context):
         pass
     context.bot.sendDocument(
         current_chat_id,
-        document=open("LaylaRobot{}.backup".format(chat_id), "rb"),
+        document=open("ElizaRobot{}.backup".format(chat_id), "rb"),
         caption="*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `LaylaRobot-Backup` was specially made for notes."
         .format(chat.title, chat_id, tgl),
         timeout=360,
         reply_to_message_id=msg.message_id,
         parse_mode=ParseMode.MARKDOWN,
     )
-    os.remove("LaylaRobot{}.backup".format(chat_id))  # Cleaning file
+    os.remove("ElizaRobot{}.backup".format(chat_id))  # Cleaning file
 
 
 # Temporary data
