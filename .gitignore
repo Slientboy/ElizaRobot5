@@ -1,7 +1,7 @@
-LaylaRobot/config.py
-LaylaRobot/*.session
-LaylaRobot/*.session-journal
-LaylaRobot/config.ini
+ElizaRobot/config.py
+ElizaRobot/*.session
+ElizaRobot/*.session-journal
+ElizaRobot/config.ini
 log.txt
 *.pyc
 .idea/
@@ -9,8 +9,8 @@ log.txt
 .pydevproject
 .directory
 .vscode
-LaylaRobot/modules/helper_funcs/temp.txt
-LaylaRobot/elevated_users.json
+ElizaRobot/modules/helper_funcs/temp.txt
+ElizaRobot/elevated_users.json
 start-3.6.bat
 *.session
 kangsticker.png
