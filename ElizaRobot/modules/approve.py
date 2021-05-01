@@ -1,10 +1,10 @@
 
-from LaylaRobot.modules.disable import DisableAbleCommandHandler
-from LaylaRobot import dispatcher, DRAGONS
-from LaylaRobot.modules.helper_funcs.extraction import extract_user
+from ElizaRobot.modules.disable import DisableAbleCommandHandler
+from ElizaRobot import dispatcher, DRAGONS
+from ElizaRobot.modules.helper_funcs.extraction import extract_user
 from telegram.ext import CallbackContext, run_async
-import LaylaRobot.modules.sql.approve_sql as sql
-from LaylaRobot.modules.helper_funcs.chat_status import (bot_admin, user_admin)
+import ElizaRobot.modules.sql.approve_sql as sql
+from ElizaRobot.modules.helper_funcs.chat_status import (bot_admin, user_admin)
 from telegram import ParseMode
 from telethon import events, Button
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantCreator
