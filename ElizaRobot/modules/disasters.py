@@ -3,12 +3,12 @@ import json
 import os
 from typing import Optional
 
-from LaylaRobot import (DEV_USERS, OWNER_ID, DRAGONS, SUPPORT_CHAT, DEMONS,
+from ElizaRobot import (DEV_USERS, OWNER_ID, DRAGONS, SUPPORT_CHAT, DEMONS,
                           TIGERS, WOLVES, dispatcher)
-from LaylaRobot.modules.helper_funcs.chat_status import (dev_plus, sudo_plus,
+from ElizaRobot.modules.helper_funcs.chat_status import (dev_plus, sudo_plus,
                                                            whitelist_plus)
-from LaylaRobot.modules.helper_funcs.extraction import extract_user
-from LaylaRobot.modules.log_channel import gloggable
+from ElizaRobot.modules.helper_funcs.extraction import extract_user
+from ElizaRobot.modules.log_channel import gloggable
 from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
