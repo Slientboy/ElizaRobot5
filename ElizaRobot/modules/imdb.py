@@ -6,8 +6,8 @@ import re
 import subprocess
 import time
 from datetime import datetime
-from LaylaRobot.laylabot import layla
-from LaylaRobot import LOGGER
+from ElizaRobot.elizabot import layla
+from ElizaRobot import LOGGER
 from telethon import types
 from telethon.tl import functions
 
