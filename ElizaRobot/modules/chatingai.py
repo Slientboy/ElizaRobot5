@@ -7,13 +7,13 @@ from telegram.ext import Filters, CallbackContext, CommandHandler, run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown
 
-from LaylaRobot.modules.helper_funcs.extraction import extract_user
-from LaylaRobot.modules.helper_funcs.filters import CustomFilters
-from LaylaRobot.modules.helper_funcs.alternate import typing_action
-from LaylaRobot import dispatcher, DRAGONS, DEMONS, LOGGER
-from LaylaRobot.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
+from ElizaRobot.modules.helper_funcs.extraction import extract_user
+from ElizaRobot.modules.helper_funcs.filters import CustomFilters
+from ElizaRobot.modules.helper_funcs.alternate import typing_action
+from ElizaRobot import dispatcher, DRAGONS, DEMONS, LOGGER
+from ElizaRobot.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
 
-import LaylaRobot.modules.helper_funcs.string_store as fun
+import ElizaRobot.modules.helper_funcs.string_store as fun
 
 @run_async
 @typing_action
