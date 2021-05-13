@@ -2,10 +2,10 @@ import importlib
 from typing import Union
 
 from future.utils import string_types
-from LaylaRobot import dispatcher
-from LaylaRobot.modules.helper_funcs.handlers import (CMD_STARTERS,
+from ElizaRobot import dispatcher
+from ElizaRobot.modules.helper_funcs.handlers import (CMD_STARTERS,
                                                         SpamChecker)
-from LaylaRobot.modules.helper_funcs.misc import is_module_loaded
+from ElizaRobot.modules.helper_funcs.misc import is_module_loaded
 from telegram import ParseMode, Update
 from telegram.ext import (CallbackContext, CommandHandler, Filters,
                           MessageHandler, RegexHandler)
