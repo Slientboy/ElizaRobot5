@@ -13,11 +13,11 @@ from ElizaRobot.modules.helper_funcs.chat_status import user_admin, user_not_adm
 from ElizaRobot.modules.helper_funcs.extraction import extract_text
 from ElizaRobot.modules.helper_funcs.misc import split_message
 from ElizaRobot.modules.log_channel import loggable
-from LaylaRobot.modules.warns import warn
-from LaylaRobot.modules.helper_funcs.string_handling import extract_time
-from LaylaRobot.modules.connection import connected
+from ElizaRobot.modules.warns import warn
+from ElizaRobot.modules.helper_funcs.string_handling import extract_time
+from ElizaRobot.modules.connection import connected
 
-from LaylaRobot.modules.helper_funcs.alternate import send_message, typing_action
+from ElizaRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 BLACKLIST_GROUP = 11
 
