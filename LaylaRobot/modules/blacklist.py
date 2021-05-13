@@ -6,13 +6,13 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-import LaylaRobot.modules.sql.blacklist_sql as sql
-from LaylaRobot import dispatcher, LOGGER
-from LaylaRobot.modules.disable import DisableAbleCommandHandler
-from LaylaRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from LaylaRobot.modules.helper_funcs.extraction import extract_text
-from LaylaRobot.modules.helper_funcs.misc import split_message
-from LaylaRobot.modules.log_channel import loggable
+import ElizaRobot.modules.sql.blacklist_sql as sql
+from ElizaRobot import dispatcher, LOGGER
+from ElizaRobot.modules.disable import DisableAbleCommandHandler
+from ElizaRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from ElizaRobot.modules.helper_funcs.extraction import extract_text
+from ElizaRobot.modules.helper_funcs.misc import split_message
+from ElizaRobot.modules.log_channel import loggable
 from LaylaRobot.modules.warns import warn
 from LaylaRobot.modules.helper_funcs.string_handling import extract_time
 from LaylaRobot.modules.connection import connected
