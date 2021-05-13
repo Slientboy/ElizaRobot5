@@ -2,18 +2,18 @@ import html
 import time
 from datetime import datetime
 from io import BytesIO
-from LaylaRobot.modules.sql.users_sql import get_user_com_chats
-import LaylaRobot.modules.sql.global_bans_sql as sql
-from LaylaRobot import (DEV_USERS, EVENT_LOGS, OWNER_ID, STRICT_GBAN, DRAGONS,
+from ElizaRobot.modules.sql.users_sql import get_user_com_chats
+import ElizaRobot.modules.sql.global_bans_sql as sql
+from ElizaRobot import (DEV_USERS, EVENT_LOGS, OWNER_ID, STRICT_GBAN, DRAGONS,
                           SUPPORT_CHAT, SPAMWATCH_SUPPORT_CHAT, DEMONS, TIGERS,
                           WOLVES, sw, dispatcher)
-from LaylaRobot.modules.helper_funcs.chat_status import (is_user_admin,
+from ElizaRobot.modules.helper_funcs.chat_status import (is_user_admin,
                                                            support_plus,
                                                            user_admin)
-from LaylaRobot.modules.helper_funcs.extraction import (extract_user,
+from ElizaRobot.modules.helper_funcs.extraction import (extract_user,
                                                           extract_user_and_text)
-from LaylaRobot.modules.helper_funcs.misc import send_to_list
-from LaylaRobot.modules.sql.users_sql import get_all_chats
+from ElizaRobot.modules.helper_funcs.misc import send_to_list
+from ElizaRobot.modules.sql.users_sql import get_all_chats
 from telegram import ParseMode, Update
 from telegram.error import BadRequest, TelegramError
 from telegram.ext import (CallbackContext, CommandHandler, Filters,
