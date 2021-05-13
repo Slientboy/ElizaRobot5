@@ -1,12 +1,12 @@
 # Module to blacklist users and prevent them from using commands by @TheRealPhoenix
 import html
-import LaylaRobot.modules.sql.blacklistusers_sql as sql
-from LaylaRobot import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
+import ElizaRobot.modules.sql.blacklistusers_sql as sql
+from ElizaRobot import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
                           dispatcher)
-from LaylaRobot.modules.helper_funcs.chat_status import dev_plus
-from LaylaRobot.modules.helper_funcs.extraction import (extract_user,
+from ElizaRobot.modules.helper_funcs.chat_status import dev_plus
+from ElizaRobot.modules.helper_funcs.extraction import (extract_user,
                                                           extract_user_and_text)
-from LaylaRobot.modules.log_channel import gloggable
+from ElizaRobot.modules.log_channel import gloggable
 from telegram import ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
