@@ -2,8 +2,8 @@ import random
 import threading
 from typing import Union
 
-from LaylaRobot.modules.helper_funcs.msg_types import Types
-from LaylaRobot.modules.sql import BASE, SESSION
+from ElizaRobot.modules.helper_funcs.msg_types import Types
+from ElizaRobot.modules.sql import BASE, SESSION
 from sqlalchemy import (BigInteger, Boolean, Column, Integer, String,
                         UnicodeText)
 
