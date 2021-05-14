@@ -12,10 +12,10 @@ from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram import ParseMode
 from telegram.ext import CommandHandler, run_async, Filters
 from telegram.utils.helpers import escape_markdown, mention_html
-from LaylaRobot import dispatcher
-from LaylaRobot.__main__ import STATS
-from LaylaRobot.modules.disable import DisableAbleCommandHandler
-from LaylaRobot.modules.helper_funcs.extraction import extract_user
+from ElizaRobot import dispatcher
+from ElizaRobot.__main__ import STATS
+from ElizaRobot.modules.disable import DisableAbleCommandHandler
+from ElizaRobot.modules.helper_funcs.extraction import extract_user
 
 def tts(update, context):
     args = context.args
