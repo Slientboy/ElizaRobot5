@@ -3,7 +3,7 @@ from typing import List
 
 import requests
 from ElizaRobot import TIME_API_KEY
-from ElizaRobot.elizabot import layla
+from ElizaRobot.elizabot import eliza
 from telethon import types
 from telethon.tl import functions
 
@@ -56,7 +56,7 @@ def generate_time(to_find: str, findtype: List[str]) -> str:
 
     return result
 
-@layla(pattern="^/datetime")
+@eliza(pattern="^/datetime")
 async def _(event):
     if event.fwd_from:
         return
