@@ -1,7 +1,7 @@
 import threading
 
-from LaylaRobot import dispatcher
-from LaylaRobot.modules.sql import BASE, SESSION
+from ElizaRobot import dispatcher
+from ElizaRobot.modules.sql import BASE, SESSION
 from sqlalchemy import (Column, ForeignKey, Integer, String, UnicodeText,
                         UniqueConstraint, func)
 
