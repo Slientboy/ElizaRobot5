@@ -4,21 +4,21 @@ import re
 import time
 from functools import partial
 
-import LaylaRobot.modules.sql.welcome_sql as sql
-from LaylaRobot import (DEV_USERS, LOGGER, OWNER_ID, DRAGONS, DEMONS, TIGERS,
+import ElizaRobot.modules.sql.welcome_sql as sql
+from ElizaRobot import (DEV_USERS, LOGGER, OWNER_ID, DRAGONS, DEMONS, TIGERS,
                           WOLVES, sw, dispatcher, JOIN_LOGGER)
-from LaylaRobot.modules.helper_funcs.chat_status import (
+from ElizaRobot.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from LaylaRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from LaylaRobot.modules.helper_funcs.msg_types import get_welcome_type
-from LaylaRobot.modules.helper_funcs.string_handling import (
+from ElizaRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from ElizaRobot.modules.helper_funcs.msg_types import get_welcome_type
+from ElizaRobot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from LaylaRobot.modules.log_channel import loggable
-from LaylaRobot.modules.sql.global_bans_sql import is_user_gbanned
+from ElizaRobot.modules.log_channel import loggable
+from ElizaRobot.modules.sql.global_bans_sql import is_user_gbanned
 from telegram import (
     ChatPermissions,
     InlineKeyboardButton,
