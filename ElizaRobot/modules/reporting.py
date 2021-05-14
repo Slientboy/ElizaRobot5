@@ -1,10 +1,10 @@
 import html
 
-from LaylaRobot import (LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher)
-from LaylaRobot.modules.helper_funcs.chat_status import (user_admin,
+from ElizaRobot import (LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher)
+from ElizaRobot.modules.helper_funcs.chat_status import (user_admin,
                                                            user_not_admin)
-from LaylaRobot.modules.log_channel import loggable
-from LaylaRobot.modules.sql import reporting_sql as sql
+from ElizaRobot.modules.log_channel import loggable
+from ElizaRobot.modules.sql import reporting_sql as sql
 from telegram import (Chat, InlineKeyboardButton, InlineKeyboardMarkup,
                       ParseMode, Update)
 from telegram.error import BadRequest, Unauthorized
