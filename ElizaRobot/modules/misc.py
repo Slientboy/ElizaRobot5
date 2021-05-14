@@ -2,9 +2,9 @@ import requests
 import wikipedia
 from emoji import UNICODE_EMOJI
 from googletrans import LANGUAGES, Translator
-from LaylaRobot.modules.helper_funcs.chat_status import user_admin
-from LaylaRobot.modules.disable import DisableAbleCommandHandler
-from LaylaRobot import dispatcher
+from ElizaRobot.modules.helper_funcs.chat_status import user_admin
+from ElizaRobot.modules.disable import DisableAbleCommandHandler
+from ElizaRobot import dispatcher
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import MessageEntity, ParseMode, Update
