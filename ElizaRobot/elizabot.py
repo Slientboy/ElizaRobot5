@@ -2,7 +2,7 @@ from ElizaRobot import telethn
 from telethon import events
 
 
-def layla(**args):
+def eliza(**args):
     """New message."""
     pattern = args.get('pattern', None)
     r_pattern = r'^[/!]'
