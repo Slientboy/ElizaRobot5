@@ -12,7 +12,7 @@ from youtube_dl.utils import (DownloadError, ContentTooShortError,
 
 from telethon import types
 from telethon.tl import functions
-from ElizaRobot.elizabot import layla
+from ElizaRobot.elizabot import eliza
 from youtubesearchpython import SearchVideos
 from tswift import Song
 
@@ -38,11 +38,11 @@ async def is_register_admin(chat, user):
         )
     return None
 
-JULIASONG = "@MissJuliaRobotMP3"
-JULIAVSONG = "@MissJuliaRobotMP4"
+ELIZASONG = "@ElizaRobotMP3"
+ELIZAVSONG = "@ElizaRobotMP4"
 
 
-@layla(pattern="^/lyrics ?(.*)")
+@eliza(pattern="^/lyrics ?(.*)")
 async def download_lyrics(v_url):
     if v_url.is_group:
         if (await is_register_admin(v_url.input_chat, v_url.message.sender_id)):
