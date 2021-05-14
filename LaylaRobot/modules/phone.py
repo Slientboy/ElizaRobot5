@@ -4,7 +4,7 @@ import json
 import time
 import urllib
 import os
-from LaylaRobot.laylabot import layla
+from ElizaRobot.elizabot import layla
 
 async def is_register_admin(chat, user):
     if isinstance(chat, (types.InputPeerChannel, types.InputChannel)):
