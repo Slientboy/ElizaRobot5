@@ -1,7 +1,7 @@
 import speedtest
-from LaylaRobot import DEV_USERS, dispatcher
-from LaylaRobot.modules.disable import DisableAbleCommandHandler
-from LaylaRobot.modules.helper_funcs.chat_status import dev_plus
+from ElizaRobot import DEV_USERS, dispatcher
+from ElizaRobot.modules.disable import DisableAbleCommandHandler
+from ElizaRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
