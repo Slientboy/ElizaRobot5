@@ -1,6 +1,6 @@
-from LaylaRobot.modules.helper_funcs.telethn.chatstatus import (
+from ElizaRobot.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages, user_is_admin)
-from LaylaRobot import telethn
+from ElizaRobot import telethn
 import time
 from telethon import events
 
