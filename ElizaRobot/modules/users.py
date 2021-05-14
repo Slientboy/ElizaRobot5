@@ -6,10 +6,10 @@ from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (CallbackContext, CommandHandler, Filters,
                           MessageHandler, run_async)
 
-import LaylaRobot.modules.sql.users_sql as sql
-from LaylaRobot import DEV_USERS, LOGGER, OWNER_ID, dispatcher
-from LaylaRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
-from LaylaRobot.modules.sql.users_sql import get_all_users
+import ElizaRobot.modules.sql.users_sql as sql
+from ElizaRobot import DEV_USERS, LOGGER, OWNER_ID, dispatcher
+from ElizaRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from ElizaRobot.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5
