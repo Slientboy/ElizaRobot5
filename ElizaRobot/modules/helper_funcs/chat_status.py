@@ -1,8 +1,8 @@
 from functools import wraps
 
-from LaylaRobot import (DEL_CMDS, DEV_USERS, DRAGONS, SUPPORT_CHAT, DEMONS,
+from ElizaRobot import (DEL_CMDS, DEV_USERS, DRAGONS, SUPPORT_CHAT, DEMONS,
                           TIGERS, WOLVES, dispatcher)
-from LaylaRobot.mwt import MWT
+from ElizaRobot.mwt import MWT
 from telegram import Chat, ChatMember, ParseMode, Update
 from telegram.ext import CallbackContext
 
