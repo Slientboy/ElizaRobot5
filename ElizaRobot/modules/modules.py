@@ -1,10 +1,10 @@
 import importlib
 
-from LaylaRobot import dispatcher
-from LaylaRobot.__main__ import (CHAT_SETTINGS, DATA_EXPORT, DATA_IMPORT,
+from ElizaRobot import dispatcher
+from ElizaRobot.__main__ import (CHAT_SETTINGS, DATA_EXPORT, DATA_IMPORT,
                                    HELPABLE, IMPORTED, MIGRATEABLE, STATS,
                                    USER_INFO, USER_SETTINGS)
-from LaylaRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from ElizaRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
