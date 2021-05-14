@@ -14,18 +14,18 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from LaylaRobot import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
+from ElizaRobot import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,
                           INFOPIC, dispatcher, sw)
-from LaylaRobot.__main__ import STATS, TOKEN, USER_INFO
-import LaylaRobot.modules.sql.userinfo_sql as sql
-from LaylaRobot.modules.disable import DisableAbleCommandHandler
-from LaylaRobot.modules.sql.global_bans_sql import is_user_gbanned
-from LaylaRobot.modules.sql.afk_sql import is_afk, check_afk_status
-from LaylaRobot.modules.sql.users_sql import get_user_num_chats
-from LaylaRobot.modules.sql.feds_sql import get_user_fbanlist
-from LaylaRobot.modules.helper_funcs.chat_status import sudo_plus
-from LaylaRobot.modules.helper_funcs.extraction import extract_user
-from LaylaRobot import telethn as SaitamaTelethonClient, TIGERS, DRAGONS, DEMONS
+from ElizaRobot.__main__ import STATS, TOKEN, USER_INFO
+import ElizaRobot.modules.sql.userinfo_sql as sql
+from ElizaRobot.modules.disable import DisableAbleCommandHandler
+from ElizaRobot.modules.sql.global_bans_sql import is_user_gbanned
+from ElizaRobot.modules.sql.afk_sql import is_afk, check_afk_status
+from ElizaRobot.modules.sql.users_sql import get_user_num_chats
+from ElizaRobot.modules.sql.feds_sql import get_user_fbanlist
+from ElizaRobot.modules.helper_funcs.chat_status import sudo_plus
+from ElizaRobot.modules.helper_funcs.extraction import extract_user
+from ElizaRobot import telethn as SaitamaTelethonClient, TIGERS, DRAGONS, DEMONS
 
 
 def no_by_per(totalhp, percentage):
