@@ -1,9 +1,9 @@
 from typing import Optional
 
-import LaylaRobot.modules.sql.rules_sql as sql
-from LaylaRobot import dispatcher
-from LaylaRobot.modules.helper_funcs.chat_status import user_admin
-from LaylaRobot.modules.helper_funcs.string_handling import markdown_parser
+import ElizaRobot.modules.sql.rules_sql as sql
+from ElizaRobot import dispatcher
+from ElizaRobot.modules.helper_funcs.chat_status import user_admin
+from ElizaRobot.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, Message,
                       ParseMode, Update, User)
 from telegram.error import BadRequest
