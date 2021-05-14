@@ -3,7 +3,7 @@ from typing import List
 
 import requests
 from ElizaRobot import TIME_API_KEY
-from ElizaRobot.laylabot import layla
+from ElizaRobot.elizabot import layla
 from telethon import types
 from telethon.tl import functions
 
