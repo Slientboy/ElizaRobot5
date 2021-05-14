@@ -4,7 +4,7 @@ import json
 import time
 import urllib
 import os
-from ElizaRobot.elizabot import layla
+from ElizaRobot.elizabot import eliza
 
 async def is_register_admin(chat, user):
     if isinstance(chat, (types.InputPeerChannel, types.InputChannel)):
@@ -25,7 +25,7 @@ async def is_register_admin(chat, user):
     else:
         return None
 
-@layla(pattern=r'^/phone (.*)')
+@eliza(pattern=r'^/phone (.*)')
 async def phone(event): 
     if event.is_group:
      if not (await is_register_admin(event.input_chat, event.message.sender_id)):
