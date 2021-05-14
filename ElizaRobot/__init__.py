@@ -98,7 +98,7 @@ if ENV:
             "Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from LaylaRobot.config import Development as Config
+    from ElizaRobot.config import Development as Config
     TOKEN = Config.TOKEN
 
     try:
