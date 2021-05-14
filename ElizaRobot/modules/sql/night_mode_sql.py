@@ -1,5 +1,5 @@
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
-from ElizaRoobot.modules.sql import BASE, SESSION
+from ElizaRobot.modules.sql import BASE, SESSION
 
 
 class Nightmode(BASE):
