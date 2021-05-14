@@ -12,8 +12,8 @@ from asyncio import sleep
 from telethon.tl.types import DocumentAttributeAudio
 from collections import deque
 from googleapiclient.discovery import build
-from LaylaRobot.laylabot import layla
-from LaylaRobot import YOUTUBE_API_KEY
+from ElizaRobot.laylabot import layla
+from ElizaRobot import YOUTUBE_API_KEY
 from html import unescape
 import requests
 
