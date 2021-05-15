@@ -15,7 +15,7 @@
 <a href="http://hits.dwyl.com/animekaizoku/saitamarobot" alt="HitCount"> <img src="http://hits.dwyl.com/animekaizoku/saitamarobot.svg" /> </a>
 </p>
 <p align="center">
-<a href="https://github.com/AnimeKaizoku/SaitamaRobot" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/animekaizoku/saitamarobot?style=flat&logo=github&color=success" /> </a>
+<a href="https://github.com/kira-36/ElizaRobot5" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/kira-36/elizarobot?style=flat&logo=github&color=success" /> </a>
 <a href="https://github.com/AnimeKaizoku/SaitamaRobot" alt="GitHub commit activity"> <img src="https://img.shields.io/github/commit-activity/m/animekaizoku/saitamarobot" /> </a>
 <a href="https://github.com/AnimeKaizoku/SaitamaRobot/graphs/contributors" alt="GitHub contributors"> <img src="https://img.shields.io/github/contributors/animekaizoku/saitamarobot?style=flat&logo=github" /> </a>
 <a href="https://github.com/AnimeKaizoku/SaitamaRobot/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/AnimeKaizoku/SaitamaRobot?label=Forks&logo=github" /> </a>
@@ -40,10 +40,10 @@
 
 
 
-Saitama is a simple one-punch solution to your group management needs and has become one of the most prominently kanged bots around telegram, purely weeab themed.
+Eliza is a simple one-punch solution to your group management needs and has become one of the most prominently kanged bots around telegram, purely weeab themed.
 
-* Bot Link:  <a href="https://t.me/SaitamaRobot" alt="Saitama Robot"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-SaitamaRobot-blue" /> </a>
-* News channel: <a  href="https://t.me/OnePunchUpdates" alt="One Punch Updates"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-One%20Punch%20Updates-9cf" /> </a>
+* Bot Link:  <a href="https://t.me/SaitamaRobot" alt="Eliza Robot"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-SaitamaRobot-blue" /> </a>
+* News channel: <a  href="https://t.me/OnePunchUpdates" alt="Eliza support"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-One%20Punch%20Updates-9cf" /> </a>
 
 Should you be forking this repo then do not forget to star it - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/animekaizoku/saitamarobot?color=white&label=%F0%9F%8C%9F%20star">
 
