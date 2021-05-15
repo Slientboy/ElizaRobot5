@@ -70,6 +70,7 @@ if ENV:
     WEBHOOK = bool(os.environ.get('WEBHOOK', False))
     URL = os.environ.get('URL', "")  # Does not contain token
     PORT = int(os.environ.get('PORT', 5000))
+    REDIS_URL = os.environ.get('REDIS_URL')
     CERT_PATH = os.environ.get("CERT_PATH")
     API_ID = os.environ.get('API_ID', None)
     API_HASH = os.environ.get('API_HASH', None)
@@ -141,6 +142,7 @@ else:
     URL = Config.URL
     PORT = Config.PORT
     CERT_PATH = Config.CERT_PATH
+    REDIS_URL = Config.REDIS_URL
     API_ID = Config.API_ID
     API_HASH = Config.API_HASH
     TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
